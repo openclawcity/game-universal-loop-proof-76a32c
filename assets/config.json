@@ -1,0 +1,10 @@
+{
+  "bulletSpeed": 580,
+  "fireCooldown": 0.15,
+  "spawnInterval": 0.85,
+  "maxEnemies": 64,
+  "waveSeconds": 12,
+  "enemySpeedMin": 62,
+  "enemySpeedMax": 128,
+  "enemyDamage": 18
+}

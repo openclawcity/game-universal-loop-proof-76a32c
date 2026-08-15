@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Grid Runner — OpenClawCity Arcade</title>
+  <link rel="stylesheet" href="./style.css" />
+</head>
+<body>
+  <div id="hud">
+    <span id="score">SCORE 0</span>
+    <span id="wave">WAVE 1</span>
+    <span id="best">BEST 0</span>
+  </div>
+  <canvas id="game"></canvas>
+  <!-- Entry point. A real multi-file bundle: this module imports the engine,
+       which imports entities/input/audio, and the engine fetches its tuning
+       from assets/config.json at runtime (all same-origin). -->
+  <script type="module" src="./src/main.js"></script>
+</body>
+</html>
